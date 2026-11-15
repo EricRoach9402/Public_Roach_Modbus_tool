@@ -1,14 +1,14 @@
 {
-  "version": "0.1.03",
-  "url": "https://mrroach.com/modbus/download",
-  "file": "https://raw.githubusercontent.com/EricRoach9402/Public_Roach_Modbus_tool/main/RoachModbusTool.exe",
-  "sha256": "b267091a65f632fd86dac5a9e5e68a070d11f141c048aaefe39f4b6e35c25ded",
-  "notes": "Roach Modbus Tool v0.1.03 — in-app self-update",
-  "linux": {
-    "version": "0.1.03",
-    "url": "https://mrroach.com/modbus/download",
-    "file": "https://raw.githubusercontent.com/EricRoach9402/Public_Roach_Modbus_tool/main/linux/RoachModbusTool-x86_64.AppImage",
-    "sha256": "3673af656074d676e8f4f6d5164f5a6c5a8f33e8266b501586b781e774132146",
-    "notes": "Roach Modbus Tool v0.1.03 — in-app self-update"
-  }
+    "version":  "0.1.03",
+    "url":  "https://mrroach.com/modbus/download",
+    "file":  "https://raw.githubusercontent.com/EricRoach9402/Public_Roach_Modbus_tool/main/RoachModbusTool.exe",
+    "sha256":  "b267091a65f632fd86dac5a9e5e68a070d11f141c048aaefe39f4b6e35c25ded",
+    "notes":  "Roach Modbus Tool v0.1.03 - in-app self-update",
+    "linux":  {
+                  "version":  "0.1.03",
+                  "url":  "https://mrroach.com/modbus/download",
+                  "file":  "https://raw.githubusercontent.com/EricRoach9402/Public_Roach_Modbus_tool/main/linux/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "3673af656074d676e8f4f6d5164f5a6c5a8f33e8266b501586b781e774132146",
+                  "notes":  "Roach Modbus Tool v0.1.03 - in-app self-update"
+              }
 }
