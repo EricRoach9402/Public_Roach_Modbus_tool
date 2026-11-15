@@ -1,10 +1,10 @@
 {
   "version": "0.1.02",
-  "url": "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/raw/refs/heads/main/RoachModbusTool.exe",
-  "notes": "Roach Modbus Tool v0.1.02 — Linux AppImage, Communication Log fix, Quality color on selection",
+  "url": "https://mrroach.com/modbus/download",
+  "notes": "Roach Modbus Tool v0.1.02",
   "linux": {
     "version": "0.1.02",
-    "url": "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/raw/refs/heads/main/linux/RoachModbusTool-x86_64.AppImage",
-    "notes": "Roach Modbus Tool v0.1.02 — Linux AppImage, Communication Log fix, Quality color on selection"
+    "url": "https://mrroach.com/modbus/download",
+    "notes": "Roach Modbus Tool v0.1.02"
   }
 }
