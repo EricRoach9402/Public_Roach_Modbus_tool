@@ -5,10 +5,10 @@
     "sha256":  "4c3d912c676aa7a30f8ba1da5eeb404f8fe794a8b1009bff92edc40dcffcf8aa",
     "notes":  "Roach Modbus Tool v1.0.0 - Redesigned Poll, Slave and Script workspaces; one dialog style; Script shows why a run stopped; refused TCP connections fail at once; opens in under a second; Engineering dialog with live preview; Help \u003e Official Website.",
     "linux":  {
-                  "version":  "0.1.03",
+                  "version":  "1.0.0",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://raw.githubusercontent.com/EricRoach9402/Public_Roach_Modbus_tool/main/linux/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "3673af656074d676e8f4f6d5164f5a6c5a8f33e8266b501586b781e774132146",
-                  "notes":  "Roach Modbus Tool v0.1.03 - in-app self-update"
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.0.0/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "c9022a6708c57b2611d85279e29462522f6c0ae8689ba607c1c72bd2639c32f4",
+                  "notes":  "Roach Modbus Tool v1.0.0 - Redesigned Poll, Slave and Script workspaces; one dialog style; Script shows why a run stopped; refused TCP connections fail at once; opens in under a second; Engineering dialog with live preview; Help \u003e Official Website."
               }
 }
