@@ -1,9 +1,9 @@
 {
-    "version":  "0.1.03",
+    "version":  "1.0.0",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://raw.githubusercontent.com/EricRoach9402/Public_Roach_Modbus_tool/main/RoachModbusTool.exe",
-    "sha256":  "b267091a65f632fd86dac5a9e5e68a070d11f141c048aaefe39f4b6e35c25ded",
-    "notes":  "Roach Modbus Tool v0.1.03 - in-app self-update",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.0.0/RoachModbusTool.exe",
+    "sha256":  "4c3d912c676aa7a30f8ba1da5eeb404f8fe794a8b1009bff92edc40dcffcf8aa",
+    "notes":  "Roach Modbus Tool v1.0.0 - Redesigned Poll, Slave and Script workspaces; one dialog style; Script shows why a run stopped; refused TCP connections fail at once; opens in under a second; Engineering dialog with live preview; Help \u003e Official Website.",
     "linux":  {
                   "version":  "0.1.03",
                   "url":  "https://mrroach.com/modbus/download",
