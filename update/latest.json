@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.5",
+    "version":  "1.1.6",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.5/RoachModbusTool.exe",
-    "sha256":  "49bcf4552e3e0ae76c4b652c6d0a0d5c92949221c993893ccd15063024b5f555",
-    "notes":  "Roach Modbus Tool v1.1.5 - Poll and Script: an exception reply (01, 02, 03 ...) is the slave\u0027s answer and is no longer retried, so a write is never sent twice; only no response, busy (06) and gateway (0A/0B) are retried. Script: a step that gets an exception now FAILs with the exception code instead of counting as DISCONNECT, and no longer skips the rest of the case. Slave: an RTU broadcast write reaches every Slave ID of the device; Slave IDs are limited to 1-247; the device list and tab counts update right away. Poll: New / Open Project starts with empty counters and log. Command line: each error is printed once, with no Qt warning.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.6/RoachModbusTool.exe",
+    "sha256":  "c0ba16d6cb0082bd244be83c46b362573e1c0fe463196598dcc37bc49a4bef79",
+    "notes":  "Roach Modbus Tool v1.1.6 - Slave: a TCP slave now serves several masters at the same time (up to 16), for example SCADA and a test tool, or two Poll instances. Before, a second master\u0027s connection was accepted but its requests timed out until the first master disconnected. One master disconnecting no longer affects the others.",
     "linux":  {
-                  "version":  "1.1.5",
+                  "version":  "1.1.6",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.5/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "f25b01389e0e955682baf4dc869e851ad2bf48e72a98e86a6992e3c8b855a5ee",
-                  "notes":  "Roach Modbus Tool v1.1.5 - Poll and Script: an exception reply (01, 02, 03 ...) is the slave\u0027s answer and is no longer retried, so a write is never sent twice; only no response, busy (06) and gateway (0A/0B) are retried. Script: a step that gets an exception now FAILs with the exception code instead of counting as DISCONNECT, and no longer skips the rest of the case. Slave: an RTU broadcast write reaches every Slave ID of the device; Slave IDs are limited to 1-247; the device list and tab counts update right away. Poll: New / Open Project starts with empty counters and log. Command line: each error is printed once, with no Qt warning."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.6/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "c0c1f96d29cb20445e47db8d51f9504059eff4fbd54b8ded46061423360c262d",
+                  "notes":  "Roach Modbus Tool v1.1.6 - Slave: a TCP slave now serves several masters at the same time (up to 16), for example SCADA and a test tool, or two Poll instances. Before, a second master\u0027s connection was accepted but its requests timed out until the first master disconnected. One master disconnecting no longer affects the others."
               }
 }
