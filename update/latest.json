@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.6",
+    "version":  "1.1.7",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.6/RoachModbusTool.exe",
-    "sha256":  "c0ba16d6cb0082bd244be83c46b362573e1c0fe463196598dcc37bc49a4bef79",
-    "notes":  "Roach Modbus Tool v1.1.6 - Slave: a TCP slave now serves several masters at the same time (up to 16), for example SCADA and a test tool, or two Poll instances. Before, a second master\u0027s connection was accepted but its requests timed out until the first master disconnected. One master disconnecting no longer affects the others.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.7/RoachModbusTool.exe",
+    "sha256":  "66d0d8335e65a6d80758f9c60a899c51088f9ec1888ad9fa0fb83924bf46a066",
+    "notes":  "Roach Modbus Tool v1.1.7 - Slave: a master that sends a request slowly or stops halfway (slow network, gateway, faulty device) no longer holds up the other masters; each connection is read on its own. The status now shows how many masters are connected, for example 3 masters connected.",
     "linux":  {
-                  "version":  "1.1.6",
+                  "version":  "1.1.7",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.6/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "c0c1f96d29cb20445e47db8d51f9504059eff4fbd54b8ded46061423360c262d",
-                  "notes":  "Roach Modbus Tool v1.1.6 - Slave: a TCP slave now serves several masters at the same time (up to 16), for example SCADA and a test tool, or two Poll instances. Before, a second master\u0027s connection was accepted but its requests timed out until the first master disconnected. One master disconnecting no longer affects the others."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.7/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "706206cad62642e16d7985289caaae0e61e5945723d8c8016828c71f8c8d1f49",
+                  "notes":  "Roach Modbus Tool v1.1.7 - Slave: a master that sends a request slowly or stops halfway (slow network, gateway, faulty device) no longer holds up the other masters; each connection is read on its own. The status now shows how many masters are connected, for example 3 masters connected."
               }
 }
