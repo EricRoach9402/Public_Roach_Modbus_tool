@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.4",
+    "version":  "1.1.5",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.4/RoachModbusTool.exe",
-    "sha256":  "dd882acec923f43527b3dcef59ec3910f0a889bb8e75d2e880ebb08095ca6bf4",
-    "notes":  "Roach Modbus Tool v1.1.4 - Poll: values of a device that is not being polled (not connected, or another device is) now show a grey Stale quality instead of a green Good. Slave: the request count in the status bar now keeps up with the one at the top after a quick burst of requests.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.5/RoachModbusTool.exe",
+    "sha256":  "49bcf4552e3e0ae76c4b652c6d0a0d5c92949221c993893ccd15063024b5f555",
+    "notes":  "Roach Modbus Tool v1.1.5 - Poll and Script: an exception reply (01, 02, 03 ...) is the slave\u0027s answer and is no longer retried, so a write is never sent twice; only no response, busy (06) and gateway (0A/0B) are retried. Script: a step that gets an exception now FAILs with the exception code instead of counting as DISCONNECT, and no longer skips the rest of the case. Slave: an RTU broadcast write reaches every Slave ID of the device; Slave IDs are limited to 1-247; the device list and tab counts update right away. Poll: New / Open Project starts with empty counters and log. Command line: each error is printed once, with no Qt warning.",
     "linux":  {
-                  "version":  "1.1.4",
+                  "version":  "1.1.5",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.4/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "e5af0b19b9afd29d69cedd6bfda995af66eb59fc5a44d13c96584a56fbfcf749",
-                  "notes":  "Roach Modbus Tool v1.1.4 - Poll: values of a device that is not being polled (not connected, or another device is) now show a grey Stale quality instead of a green Good. Slave: the request count in the status bar now keeps up with the one at the top after a quick burst of requests."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.5/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "f25b01389e0e955682baf4dc869e851ad2bf48e72a98e86a6992e3c8b855a5ee",
+                  "notes":  "Roach Modbus Tool v1.1.5 - Poll and Script: an exception reply (01, 02, 03 ...) is the slave\u0027s answer and is no longer retried, so a write is never sent twice; only no response, busy (06) and gateway (0A/0B) are retried. Script: a step that gets an exception now FAILs with the exception code instead of counting as DISCONNECT, and no longer skips the rest of the case. Slave: an RTU broadcast write reaches every Slave ID of the device; Slave IDs are limited to 1-247; the device list and tab counts update right away. Poll: New / Open Project starts with empty counters and log. Command line: each error is printed once, with no Qt warning."
               }
 }
