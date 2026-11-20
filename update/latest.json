@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.0",
+    "version":  "1.1.1",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.0/RoachModbusTool.exe",
-    "sha256":  "8087a92fdc5bba85ab6e67b7607a9060c87964e02ba31d653633f12f5b8a37b9",
-    "notes":  "Roach Modbus Tool v1.1.0 - Script: cases run in order (Goto removed), End Case / End Round, Wait Until any answer / no response with no time limit, While with no loop limit, ${now} timer, power-cycle example script.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.1/RoachModbusTool.exe",
+    "sha256":  "13295d8b1c98ea262da24b4bbf3f093b01891efa197dcfcf40fc6cbf53e424c5",
+    "notes":  "Roach Modbus Tool v1.1.1 - Poll: F6 writes only checked or edited rows; out-of-range values are refused; late TCP replies no longer desync polling; reconnects after the slave restarts; No response warning in the status bar; Stop / Auto Poll and device switching fixed. Slave: Listen no longer rewrites other devices; values are saved in projects; FC07/FC08 and bad quantities answered at once; RTU frame gap 3.5 chars. Linux: AppImage runs without libopengl0.",
     "linux":  {
-                  "version":  "1.1.0",
+                  "version":  "1.1.1",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.0/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "f5cc1fc5e37fe31d8ccbaed7bdd017a7d6183acb886801353cb3f23050e8f6f4",
-                  "notes":  "Roach Modbus Tool v1.1.0 - Script: cases run in order (Goto removed), End Case / End Round, Wait Until any answer / no response with no time limit, While with no loop limit, ${now} timer, power-cycle example script."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.1/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "28a5ac9a66e93c02f259b7ce403473f679e5efbb5c9cc6b3b6034b557835def6",
+                  "notes":  "Roach Modbus Tool v1.1.1 - Poll: F6 writes only checked or edited rows; out-of-range values are refused; late TCP replies no longer desync polling; reconnects after the slave restarts; No response warning in the status bar; Stop / Auto Poll and device switching fixed. Slave: Listen no longer rewrites other devices; values are saved in projects; FC07/FC08 and bad quantities answered at once; RTU frame gap 3.5 chars. Linux: AppImage runs without libopengl0."
               }
 }
