@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.3",
+    "version":  "1.1.4",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.3/RoachModbusTool.exe",
-    "sha256":  "2ef0eca3d970c2bd10f1b768eef8e3d6dcc2f2c7197b2ac791f892b83789a8e1",
-    "notes":  "Roach Modbus Tool v1.1.3 - Poll: the Log labels traffic with the connected device (it showed the device on screen) and decodes frames with the connection\u0027s TCP/RTU format. Revert, like Write, works on edited rows when nothing is checked. Slave: the status bar no longer says Master online after the master has left. Linux: first release where updating from it shuts the old AppImage down cleanly.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.4/RoachModbusTool.exe",
+    "sha256":  "dd882acec923f43527b3dcef59ec3910f0a889bb8e75d2e880ebb08095ca6bf4",
+    "notes":  "Roach Modbus Tool v1.1.4 - Poll: values of a device that is not being polled (not connected, or another device is) now show a grey Stale quality instead of a green Good. Slave: the request count in the status bar now keeps up with the one at the top after a quick burst of requests.",
     "linux":  {
-                  "version":  "1.1.3",
+                  "version":  "1.1.4",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.3/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "413aea653d6fbda1ae8c5b2516b293e46e801f0f0ef7a8c11dfc975ebddb5384",
-                  "notes":  "Roach Modbus Tool v1.1.3 - Poll: the Log labels traffic with the connected device (it showed the device on screen) and decodes frames with the connection\u0027s TCP/RTU format. Revert, like Write, works on edited rows when nothing is checked. Slave: the status bar no longer says Master online after the master has left. Linux: first release where updating from it shuts the old AppImage down cleanly."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.4/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "e5af0b19b9afd29d69cedd6bfda995af66eb59fc5a44d13c96584a56fbfcf749",
+                  "notes":  "Roach Modbus Tool v1.1.4 - Poll: values of a device that is not being polled (not connected, or another device is) now show a grey Stale quality instead of a green Good. Slave: the request count in the status bar now keeps up with the one at the top after a quick burst of requests."
               }
 }
