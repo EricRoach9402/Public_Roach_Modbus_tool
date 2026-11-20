@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.1",
+    "version":  "1.1.2",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.1/RoachModbusTool.exe",
-    "sha256":  "13295d8b1c98ea262da24b4bbf3f093b01891efa197dcfcf40fc6cbf53e424c5",
-    "notes":  "Roach Modbus Tool v1.1.1 - Poll: F6 writes only checked or edited rows; out-of-range values are refused; late TCP replies no longer desync polling; reconnects after the slave restarts; No response warning in the status bar; Stop / Auto Poll and device switching fixed. Slave: Listen no longer rewrites other devices; values are saved in projects; FC07/FC08 and bad quantities answered at once; RTU frame gap 3.5 chars. Linux: AppImage runs without libopengl0.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.2/RoachModbusTool.exe",
+    "sha256":  "97fb87b8992e7f49ea6a6b27f8db8b9787489a7200a94faa4a2f3fa3c41551d3",
+    "notes":  "Roach Modbus Tool v1.1.2 - Poll: clicking a device only views it; a banner offers Connect to this device, and the current connection is kept if the new one cannot be reached. Read/Write on a device that is not connected is refused with a reason. Rejected values keep their message visible; the state shows Connected right after Stop. Slave: Listen no longer changes other devices\u0027 port or transport; only the listening endpoint shows Answering; Poll traffic is no longer counted before Listen. Updates: the status bar no longer stays on Checking for updates; on Linux the old AppImage now exits cleanly after an update.",
     "linux":  {
-                  "version":  "1.1.1",
+                  "version":  "1.1.2",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.1/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "28a5ac9a66e93c02f259b7ce403473f679e5efbb5c9cc6b3b6034b557835def6",
-                  "notes":  "Roach Modbus Tool v1.1.1 - Poll: F6 writes only checked or edited rows; out-of-range values are refused; late TCP replies no longer desync polling; reconnects after the slave restarts; No response warning in the status bar; Stop / Auto Poll and device switching fixed. Slave: Listen no longer rewrites other devices; values are saved in projects; FC07/FC08 and bad quantities answered at once; RTU frame gap 3.5 chars. Linux: AppImage runs without libopengl0."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.2/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "efe07e83f00bdb56662fc16705fd041d3c8b05ee334d69f35d54442f7771a9da",
+                  "notes":  "Roach Modbus Tool v1.1.2 - Poll: clicking a device only views it; a banner offers Connect to this device, and the current connection is kept if the new one cannot be reached. Read/Write on a device that is not connected is refused with a reason. Rejected values keep their message visible; the state shows Connected right after Stop. Slave: Listen no longer changes other devices\u0027 port or transport; only the listening endpoint shows Answering; Poll traffic is no longer counted before Listen. Updates: the status bar no longer stays on Checking for updates; on Linux the old AppImage now exits cleanly after an update."
               }
 }
