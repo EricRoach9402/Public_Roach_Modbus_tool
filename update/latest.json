@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.2",
+    "version":  "1.1.3",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.2/RoachModbusTool.exe",
-    "sha256":  "97fb87b8992e7f49ea6a6b27f8db8b9787489a7200a94faa4a2f3fa3c41551d3",
-    "notes":  "Roach Modbus Tool v1.1.2 - Poll: clicking a device only views it; a banner offers Connect to this device, and the current connection is kept if the new one cannot be reached. Read/Write on a device that is not connected is refused with a reason. Rejected values keep their message visible; the state shows Connected right after Stop. Slave: Listen no longer changes other devices\u0027 port or transport; only the listening endpoint shows Answering; Poll traffic is no longer counted before Listen. Updates: the status bar no longer stays on Checking for updates; on Linux the old AppImage now exits cleanly after an update.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.3/RoachModbusTool.exe",
+    "sha256":  "2ef0eca3d970c2bd10f1b768eef8e3d6dcc2f2c7197b2ac791f892b83789a8e1",
+    "notes":  "Roach Modbus Tool v1.1.3 - Poll: the Log labels traffic with the connected device (it showed the device on screen) and decodes frames with the connection\u0027s TCP/RTU format. Revert, like Write, works on edited rows when nothing is checked. Slave: the status bar no longer says Master online after the master has left. Linux: first release where updating from it shuts the old AppImage down cleanly.",
     "linux":  {
-                  "version":  "1.1.2",
+                  "version":  "1.1.3",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.2/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "efe07e83f00bdb56662fc16705fd041d3c8b05ee334d69f35d54442f7771a9da",
-                  "notes":  "Roach Modbus Tool v1.1.2 - Poll: clicking a device only views it; a banner offers Connect to this device, and the current connection is kept if the new one cannot be reached. Read/Write on a device that is not connected is refused with a reason. Rejected values keep their message visible; the state shows Connected right after Stop. Slave: Listen no longer changes other devices\u0027 port or transport; only the listening endpoint shows Answering; Poll traffic is no longer counted before Listen. Updates: the status bar no longer stays on Checking for updates; on Linux the old AppImage now exits cleanly after an update."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.3/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "413aea653d6fbda1ae8c5b2516b293e46e801f0f0ef7a8c11dfc975ebddb5384",
+                  "notes":  "Roach Modbus Tool v1.1.3 - Poll: the Log labels traffic with the connected device (it showed the device on screen) and decodes frames with the connection\u0027s TCP/RTU format. Revert, like Write, works on edited rows when nothing is checked. Slave: the status bar no longer says Master online after the master has left. Linux: first release where updating from it shuts the old AppImage down cleanly."
               }
 }
