@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.7",
+    "version":  "1.1.8",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.7/RoachModbusTool.exe",
-    "sha256":  "66d0d8335e65a6d80758f9c60a899c51088f9ec1888ad9fa0fb83924bf46a066",
-    "notes":  "Roach Modbus Tool v1.1.7 - Slave: a master that sends a request slowly or stops halfway (slow network, gateway, faulty device) no longer holds up the other masters; each connection is read on its own. The status now shows how many masters are connected, for example 3 masters connected.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.8/RoachModbusTool.exe",
+    "sha256":  "e4a217c37e61cbbdc5cbf7fc298d7d7d0eb26d79aea7cb7c6326dcac5d309ffc",
+    "notes":  "Roach Modbus Tool v1.1.8 - Slave: values that masters write are kept when you press Stop and when you save, including writes to a Slave ID that is not on screen (for example a broadcast); before, they could fall back to the old values. A master that stops halfway through a request is disconnected after 5 s, masters that vanish (power loss, cable pulled) are noticed within about a minute, and when all 16 connections are taken a new master replaces the one that has been quiet longest instead of being refused. Poll and Slave: closing a Slave ID tab now asks before deleting the ID and its points.",
     "linux":  {
-                  "version":  "1.1.7",
+                  "version":  "1.1.8",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.7/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "706206cad62642e16d7985289caaae0e61e5945723d8c8016828c71f8c8d1f49",
-                  "notes":  "Roach Modbus Tool v1.1.7 - Slave: a master that sends a request slowly or stops halfway (slow network, gateway, faulty device) no longer holds up the other masters; each connection is read on its own. The status now shows how many masters are connected, for example 3 masters connected."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.8/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "bf6c9c83fa8d2547f413910360802639737a4a15f211d0e9eefb74822a2f4638",
+                  "notes":  "Roach Modbus Tool v1.1.8 - Slave: values that masters write are kept when you press Stop and when you save, including writes to a Slave ID that is not on screen (for example a broadcast); before, they could fall back to the old values. A master that stops halfway through a request is disconnected after 5 s, masters that vanish (power loss, cable pulled) are noticed within about a minute, and when all 16 connections are taken a new master replaces the one that has been quiet longest instead of being refused. Poll and Slave: closing a Slave ID tab now asks before deleting the ID and its points."
               }
 }
