@@ -3,12 +3,12 @@
     "url":  "https://mrroach.com/modbus/download",
     "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.10/RoachModbusTool.exe",
     "sha256":  "d648882ddecb8e313d169cd0c43a4642e188fbebd523d059c60e6b9a17d26ca2",
-    "notes":  "Roach Modbus Tool v1.1.10 - Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all.",
+    "notes":  "Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all.",
     "linux":  {
                   "version":  "1.1.10",
                   "url":  "https://mrroach.com/modbus/download",
                   "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.10/RoachModbusTool-x86_64.AppImage",
                   "sha256":  "47d5e3fffb15a9a0bea35b997f1021420a32c03417944e8815e8e4bb71e9c241",
-                  "notes":  "Roach Modbus Tool v1.1.10 - Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all."
+                  "notes":  "Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all."
               }
 }
