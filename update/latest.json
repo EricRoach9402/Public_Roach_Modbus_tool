@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.11",
+    "version":  "1.1.12",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.11/RoachModbusTool.exe",
-    "sha256":  "13d8c14d48eb048ff2be92d1181a5a95c8b48779efe54a4c26771e62537a225d",
-    "notes":  "Roach Modbus Tool v1.1.11 - Script: an Ask step no longer shows PASS while its question is still waiting; its result appears when the operator answers, so a FAIL answer no longer flips an early PASS. Stopping the run while a question waits leaves that step not run. Windows: the file properties of RoachModbusTool.exe now show the app version (they said 0.1.03).",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.12/RoachModbusTool.exe",
+    "sha256":  "401f3f8bc4a74046e4a74f490f8dde82ce99d0f72236691cea679c95d491161b",
+    "notes":  "Roach Modbus Tool v1.1.12 - Script: the Add Step / Edit Step dialog now fits short screens (for example 1366x768, or 1080p at 125-150% scaling): the step list turns one-line and the fields scroll, so OK / Cancel are always visible. The dialog is also wide enough that Wait Until\u0027s Compare choices are no longer squeezed. While a run is paused, the summary bar now always says Paused (it could switch back to Running).",
     "linux":  {
-                  "version":  "1.1.11",
+                  "version":  "1.1.12",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.11/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "0bec841a2b59355b7e459d45163bf56ef3bb03c929d47752e9f25c8b52ca6871",
-                  "notes":  "Roach Modbus Tool v1.1.11 - Script: an Ask step no longer shows PASS while its question is still waiting; its result appears when the operator answers, so a FAIL answer no longer flips an early PASS. Stopping the run while a question waits leaves that step not run. Windows: the file properties of RoachModbusTool.exe now show the app version (they said 0.1.03)."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.12/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "d6fda18092c9e4f7bc8848092068ff97d710b897f6575cf27e05ef1be0f1df6f",
+                  "notes":  "Roach Modbus Tool v1.1.12 - Script: the Add Step / Edit Step dialog now fits short screens (for example 1366x768, or 1080p at 125-150% scaling): the step list turns one-line and the fields scroll, so OK / Cancel are always visible. The dialog is also wide enough that Wait Until\u0027s Compare choices are no longer squeezed. While a run is paused, the summary bar now always says Paused (it could switch back to Running)."
               }
 }
