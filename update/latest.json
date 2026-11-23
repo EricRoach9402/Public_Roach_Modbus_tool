@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.10",
+    "version":  "1.1.11",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.10/RoachModbusTool.exe",
-    "sha256":  "d648882ddecb8e313d169cd0c43a4642e188fbebd523d059c60e6b9a17d26ca2",
-    "notes":  "Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.11/RoachModbusTool.exe",
+    "sha256":  "13d8c14d48eb048ff2be92d1181a5a95c8b48779efe54a4c26771e62537a225d",
+    "notes":  "Roach Modbus Tool v1.1.11 - Script: an Ask step no longer shows PASS while its question is still waiting; its result appears when the operator answers, so a FAIL answer no longer flips an early PASS. Stopping the run while a question waits leaves that step not run. Windows: the file properties of RoachModbusTool.exe now show the app version (they said 0.1.03).",
     "linux":  {
-                  "version":  "1.1.10",
+                  "version":  "1.1.11",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.10/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "47d5e3fffb15a9a0bea35b997f1021420a32c03417944e8815e8e4bb71e9c241",
-                  "notes":  "Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.11/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "0bec841a2b59355b7e459d45163bf56ef3bb03c929d47752e9f25c8b52ca6871",
+                  "notes":  "Roach Modbus Tool v1.1.11 - Script: an Ask step no longer shows PASS while its question is still waiting; its result appears when the operator answers, so a FAIL answer no longer flips an early PASS. Stopping the run while a question waits leaves that step not run. Windows: the file properties of RoachModbusTool.exe now show the app version (they said 0.1.03)."
               }
 }
