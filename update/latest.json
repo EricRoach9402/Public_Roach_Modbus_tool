@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.12",
+    "version":  "1.2.0",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.12/RoachModbusTool.exe",
-    "sha256":  "401f3f8bc4a74046e4a74f490f8dde82ce99d0f72236691cea679c95d491161b",
-    "notes":  "Roach Modbus Tool v1.1.12 - Script: the Add Step / Edit Step dialog now fits short screens (for example 1366x768, or 1080p at 125-150% scaling): the step list turns one-line and the fields scroll, so OK / Cancel are always visible. The dialog is also wide enough that Wait Until\u0027s Compare choices are no longer squeezed. While a run is paused, the summary bar now always says Paused (it could switch back to Running).",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.2.0/RoachModbusTool.exe",
+    "sha256":  "3564540b0154c929a64ea23d7cac4c476d5a91a623681e92957f1081faf9228d",
+    "notes":  "Roach Modbus Tool v1.2.0 - Licensing now uses Polar. One license key works on up to 3 computers at a time and does not expire. To move a license, choose Help → Remove License on the old computer, or remove the device in the Polar customer portal. License keys from the previous store (Lemon Squeezy) are no longer accepted.",
     "linux":  {
-                  "version":  "1.1.12",
+                  "version":  "1.2.0",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.12/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "d6fda18092c9e4f7bc8848092068ff97d710b897f6575cf27e05ef1be0f1df6f",
-                  "notes":  "Roach Modbus Tool v1.1.12 - Script: the Add Step / Edit Step dialog now fits short screens (for example 1366x768, or 1080p at 125-150% scaling): the step list turns one-line and the fields scroll, so OK / Cancel are always visible. The dialog is also wide enough that Wait Until\u0027s Compare choices are no longer squeezed. While a run is paused, the summary bar now always says Paused (it could switch back to Running)."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.2.0/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "61004489ffeec8b9ae3851054f646192b5f56eee3999d6365a4cc0c8eccb0420",
+                  "notes":  "Roach Modbus Tool v1.2.0 - Licensing now uses Polar. One license key works on up to 3 computers at a time and does not expire. To move a license, choose Help → Remove License on the old computer, or remove the device in the Polar customer portal. License keys from the previous store (Lemon Squeezy) are no longer accepted."
               }
 }
