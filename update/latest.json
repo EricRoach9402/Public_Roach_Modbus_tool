@@ -1,14 +1,14 @@
 {
-    "version":  "1.1.9",
+    "version":  "1.1.10",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.9/RoachModbusTool.exe",
-    "sha256":  "71d3956fb6b9f734f8b41f7e0890582d96cdf5faec7eafc82d3a9a7f70040690",
-    "notes":  "Roach Modbus Tool v1.1.9 - Slave: when all 16 master connections are taken, a new master is now refused and every connected master stays connected. In 1.1.8 the new master replaced the quietest connection, so 17 or more masters polling all the time could knock each other off in turn. Masters that stop halfway through a request (5 s) or vanish (power loss, cable pulled; about a minute) still free their slot automatically.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.10/RoachModbusTool.exe",
+    "sha256":  "d648882ddecb8e313d169cd0c43a4642e188fbebd523d059c60e6b9a17d26ca2",
+    "notes":  "Roach Modbus Tool v1.1.10 - Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all.",
     "linux":  {
-                  "version":  "1.1.9",
+                  "version":  "1.1.10",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.9/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "c2f4fd95a25a00bf2bcc470d45b3393722260b27bd39660d58c5b5703f8161f9",
-                  "notes":  "Roach Modbus Tool v1.1.9 - Slave: when all 16 master connections are taken, a new master is now refused and every connected master stays connected. In 1.1.8 the new master replaced the quietest connection, so 17 or more masters polling all the time could knock each other off in turn. Masters that stop halfway through a request (5 s) or vanish (power loss, cable pulled; about a minute) still free their slot automatically."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.1.10/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "47d5e3fffb15a9a0bea35b997f1021420a32c03417944e8815e8e4bb71e9c241",
+                  "notes":  "Roach Modbus Tool v1.1.10 - Roach Modbus Tool v1.1.10 - Script: a Write with a list of values (for example float values 1.5, -2) now runs; before, Run rejected it as a malformed step. During a run, a finished case shows its result right away instead of \"not visited\" until the loop ended. A text Ask answer can now be shown in Log, Pause and Ask messages as ${name}; the check before Run no longer refuses it. Device list: the status badge stays visible on devices with many Slave IDs; IDs that do not fit show as +N, and hovering a device lists them all."
               }
 }
