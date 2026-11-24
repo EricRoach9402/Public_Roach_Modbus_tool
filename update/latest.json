@@ -1,14 +1,14 @@
 {
-    "version":  "1.3.2",
+    "version":  "1.3.3",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.3.2/RoachModbusTool.exe",
-    "sha256":  "6a176d64bfb2ae84273bfde751aee59fc6a8b35c04ccac20e2c3b8f88d310c01",
-    "notes":  "Roach Modbus Tool v1.3.2 - Poll: importing a device whose IP is not an IPv4 address (for example localhost) is now refused with a reason, like the other rules, instead of failing later at Connect. Add device (+) never suggests an IP that OK would refuse; it falls back to 127.0.0.1. When two paths name one serial port, the message shows both, for example RTU /tmp/ttyV0 (= /dev/pts/0). Add device, Edit device and the other dialogs with OK / Cancel now look like the rest of the app: Cancel on the left, the main button on the right, no icons. Linux: opening the window on a computer without a display now says so and suggests --run-script, instead of a misleading message about a missing xcb library.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.3.3/RoachModbusTool.exe",
+    "sha256":  "ec4083f5f2b1c6470089b679b3f711504852646f693673cccd363243ec9a6624",
+    "notes":  "Roach Modbus Tool v1.3.3 - Updates: the old version no longer crashes as it closes after an update. The cause was found in this version (1.3.1 did not fix it), so the fix takes effect when you update from 1.3.3 to a later version; this update to 1.3.3 may still show the crash once. The update itself was never affected. The update notice is now short: it says a new version is available and offers Update now; what changed is on the release page.",
     "linux":  {
-                  "version":  "1.3.2",
+                  "version":  "1.3.3",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.3.2/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "ceed67e1221dd29a122c1af846de701e32e98375992c139015d56210649b6dbe",
-                  "notes":  "Roach Modbus Tool v1.3.2 - Poll: importing a device whose IP is not an IPv4 address (for example localhost) is now refused with a reason, like the other rules, instead of failing later at Connect. Add device (+) never suggests an IP that OK would refuse; it falls back to 127.0.0.1. When two paths name one serial port, the message shows both, for example RTU /tmp/ttyV0 (= /dev/pts/0). Add device, Edit device and the other dialogs with OK / Cancel now look like the rest of the app: Cancel on the left, the main button on the right, no icons. Linux: opening the window on a computer without a display now says so and suggests --run-script, instead of a misleading message about a missing xcb library."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.3.3/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "3189ff6765a500ad49b37d40e0a20d4b1c6b82d5425489f87713e8466da9a147",
+                  "notes":  "Roach Modbus Tool v1.3.3 - Updates: the old version no longer crashes as it closes after an update. The cause was found in this version (1.3.1 did not fix it), so the fix takes effect when you update from 1.3.3 to a later version; this update to 1.3.3 may still show the crash once. The update itself was never affected. The update notice is now short: it says a new version is available and offers Update now; what changed is on the release page."
               }
 }
