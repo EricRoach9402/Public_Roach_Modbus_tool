@@ -1,14 +1,14 @@
 {
-    "version":  "1.2.0",
+    "version":  "1.2.1",
     "url":  "https://mrroach.com/modbus/download",
-    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.2.0/RoachModbusTool.exe",
-    "sha256":  "3564540b0154c929a64ea23d7cac4c476d5a91a623681e92957f1081faf9228d",
-    "notes":  "Roach Modbus Tool v1.2.0 - Licensing now uses Polar. One license key works on up to 3 computers at a time and does not expire. To move a license, choose Help → Remove License on the old computer, or remove the device in the Polar customer portal. License keys from the previous store (Lemon Squeezy) are no longer accepted.",
+    "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.2.1/RoachModbusTool.exe",
+    "sha256":  "4a8020bacee7dcb637ab25d8d709d8f4ebaafb4db32eb34bb91ccbc51f127b34",
+    "notes":  "Roach Modbus Tool v1.2.1 - Slave: the Listen IP now takes effect. Earlier versions showed a Listen IP but always listened on every network interface. A slave now listens on exactly the address you choose, and the default is 127.0.0.1 (this PC only). Projects and scripts saved with 127.0.0.1 now listen there too: to let PLCs or HMIs on your network connect, choose the network card\u0027s address or 0.0.0.0 (all interfaces) in Edit device. 127.0.0.1 accepts connections to 127.0.0.1 only, not to other 127.x addresses, so the Showcase - all features script (127.0.0.100 and 127.0.0.101) needs a slave on each of those addresses. The status shows who can connect, for example 127.0.0.1:502 (this PC only). Two listeners can no longer share an address and port: on Windows the second one used to show Listening and never receive a request; it now says the address is in use. 0.0.0.0 and a specific address cannot share a port; different addresses can. Poll and Slave: Edit device sets the IP, port, TCP/RTU and serial settings again (missing since 1.1.12). Script: the case list updates its step count as you add steps, and a new script starts on 1x. Command line: --run-script output is UTF-8, and a console shows any language correctly.",
     "linux":  {
-                  "version":  "1.2.0",
+                  "version":  "1.2.1",
                   "url":  "https://mrroach.com/modbus/download",
-                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.2.0/RoachModbusTool-x86_64.AppImage",
-                  "sha256":  "61004489ffeec8b9ae3851054f646192b5f56eee3999d6365a4cc0c8eccb0420",
-                  "notes":  "Roach Modbus Tool v1.2.0 - Licensing now uses Polar. One license key works on up to 3 computers at a time and does not expire. To move a license, choose Help → Remove License on the old computer, or remove the device in the Polar customer portal. License keys from the previous store (Lemon Squeezy) are no longer accepted."
+                  "file":  "https://github.com/EricRoach9402/Public_Roach_Modbus_tool/releases/download/v1.2.1/RoachModbusTool-x86_64.AppImage",
+                  "sha256":  "533d5e338cefff547521e4ad74506d51397ebdd0dac42a09384532d1543a4972",
+                  "notes":  "Roach Modbus Tool v1.2.1 - Slave: the Listen IP now takes effect. Earlier versions showed a Listen IP but always listened on every network interface. A slave now listens on exactly the address you choose, and the default is 127.0.0.1 (this PC only). Projects and scripts saved with 127.0.0.1 now listen there too: to let PLCs or HMIs on your network connect, choose the network card\u0027s address or 0.0.0.0 (all interfaces) in Edit device. 127.0.0.1 accepts connections to 127.0.0.1 only, not to other 127.x addresses, so the Showcase - all features script (127.0.0.100 and 127.0.0.101) needs a slave on each of those addresses. The status shows who can connect, for example 127.0.0.1:502 (this PC only). Two listeners can no longer share an address and port: on Windows the second one used to show Listening and never receive a request; it now says the address is in use. 0.0.0.0 and a specific address cannot share a port; different addresses can. Poll and Slave: Edit device sets the IP, port, TCP/RTU and serial settings again (missing since 1.1.12). Script: the case list updates its step count as you add steps, and a new script starts on 1x. Command line: --run-script output is UTF-8, and a console shows any language correctly."
               }
 }
